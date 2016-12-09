@@ -55,7 +55,9 @@
 ### Xcode 설정하기 (iOS9 이상)
 	
 > 해당 프로젝트 info.plist 에서 ‘App Transport Security Settings’ 속성을 추가 해주세요. 
-하위 아이템으로 ‘Allow Arbitrary Loads’ 추가 후 값은 ‘YES’로 설정하십시오.	
+하위 아이템으로 ‘Allow Arbitrary Loads’ 추가 후 값은 ‘YES’로 설정하십시오. 
+ ![unit id](./img/sdk-1.png)
+ 	
 
 ## 광고 적용하기
 
