@@ -13,8 +13,11 @@
     
 # 시작하기
 
-1. 계정을 생성합니다.
+1. 계정을 생성합니다
+2. Inventory -> New App을 선택합니다.<br/>
+![new app](./img/sdk-2.png)
 
+3. 앱정보를 등록한 후, unit을 생성 합니다.
 
 
 # 어플리케이션 설정
@@ -56,6 +59,7 @@
 	
 > 해당 프로젝트 info.plist 에서 ‘App Transport Security Settings’ 속성을 추가 해주세요. 
 하위 아이템으로 ‘Allow Arbitrary Loads’ 추가 후 값은 ‘YES’로 설정하십시오. 
+
  ![unit id](./img/sdk-1.png)
  	
 
