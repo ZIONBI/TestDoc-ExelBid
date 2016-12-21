@@ -70,14 +70,14 @@
 
 > 홈페이지에서 발급받은 App ID 를 최초 한번 등록합니다.
 
-*	setAppId(NSString) : 홈페이지에서 발급받은 App ID
+*	setEBAppId(NSString) : 홈페이지에서 발급받은 App ID
 
  ```
 	#import <ExelBidSDK/ExelBidSDK.h>
 
 	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   	 
-   	 [ExelBidKit setEBAppKey:@“앱 아이디”];
+   	 [ExelBidKit setEBAppId:@“앱 아이디”];
 
  	 return YES;
 	}
