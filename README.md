@@ -73,6 +73,8 @@
 *	setAppId(NSString) : 홈페이지에서 발급받은 App ID
 
  ```
+	#import <ExelBidSDK/ExelBidSDK.h>
+
 	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   	 
    	 [ExelBidKit setEBAppKey:@“앱 아이디”];
@@ -333,5 +335,4 @@
     ```
     [self.placer loadAdsForAdUnitID:”유닛아이디” targeting:”EBNativeAdRequestTargeting 객체”];
     ```
-    
     
